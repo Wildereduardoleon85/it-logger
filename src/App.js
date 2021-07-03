@@ -9,6 +9,8 @@ import AddLogModal from './components/logs/AddLogModal';
 import EditLogModal from './components/logs/EditLogModal';
 import AddTechModal from './components/techs/AddTechModal';
 import TechListModal from './components/techs/TechListModal';
+import {Provider} from 'react-redux';
+import store from './store';
 
 const App = ()=> {
 
@@ -18,17 +20,19 @@ const App = ()=> {
   })
 
   return (
-    <Fragment>
-      <Searchbar/>
-      <div className="container">
-        <AddBtn/>
-        <AddLogModal/>
-        <EditLogModal/>
-        <AddTechModal/>
-        <TechListModal/>
-        <Logs/>
-      </div>
-    </Fragment>
+    <Provider store={store}>
+      <Fragment>
+        <Searchbar/>
+        <div className="container">
+          <AddBtn/>
+          <AddLogModal/>
+          <EditLogModal/>
+          <AddTechModal/>
+          <TechListModal/>
+          <Logs/>
+        </div>
+      </Fragment>
+    </Provider>
   );
 }
 
