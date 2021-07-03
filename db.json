@@ -15,11 +15,11 @@
       "id": 2
     },
     {
-      "message": "Resolve hard drive error in workstation 008",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2021-07-03T21:44:16.446Z",
-      "id": 3
+      "id": 3,
+      "message": "Resolved hard drive error in workstation 008",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2021-07-03T23:43:14.408Z"
     },
     {
       "message": "Clear Worktation 010",
