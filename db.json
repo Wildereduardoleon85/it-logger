@@ -1,25 +1,39 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed hard drive on workstation 005",
+      "message": "Setup system drive in Station 005",
       "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sam Smith"
+      "tech": "John Doe",
+      "date": "2021-07-03T21:43:27.615Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "message": "Workstation 007 not posting",
+      "message": "Change motherboard from Computer 5",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2021-07-03T21:43:42.992Z",
+      "id": 2
+    },
+    {
+      "message": "Resolve hard drive error in workstation 008",
       "attention": true,
-      "date": "03-02-2019",
-      "tech": "John Doe"
+      "tech": "Sara Wilson",
+      "date": "2021-07-03T21:44:16.446Z",
+      "id": 3
     },
     {
-      "id": 3,
-      "message": "Changed memory on Workstation 050",
+      "message": "Change Memmory RAM in workstation 055",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2021-07-03T21:44:49.640Z",
+      "id": 4
+    },
+    {
+      "message": "Clear Worktation 010",
       "attention": false,
-      "date": "03-02-2019",
-      "tech": "Sara Wilson"
+      "tech": "Sam Smith",
+      "date": "2021-07-03T21:47:53.656Z",
+      "id": 5
     }
   ],
   "techs": [
