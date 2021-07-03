@@ -22,12 +22,12 @@ export default (state = initialState, action)=>{
             };
         case LOGS_ERROR:
             return{
-                console.error(action.payload);
-                return{
+                //console.error(action.payload);
+                //return{
                     ...state,
                     error: action.payload
-                }
-            }
+                //}
+            };
         default:
             return state;
     }
