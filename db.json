@@ -22,18 +22,11 @@
       "id": 3
     },
     {
-      "message": "Change Memmory RAM in workstation 055",
-      "attention": true,
-      "tech": "Sam Smith",
-      "date": "2021-07-03T21:44:49.640Z",
-      "id": 4
-    },
-    {
       "message": "Clear Worktation 010",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2021-07-03T21:47:53.656Z",
-      "id": 5
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2021-07-03T22:06:37.882Z",
+      "id": 4
     }
   ],
   "techs": [
