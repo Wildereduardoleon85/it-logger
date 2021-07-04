@@ -37,12 +37,10 @@ export default (state = initialState, action)=>{
                 loading: true
             };
         case LOGS_ERROR:
+            console.error(action.payload);
             return{
-                //console.error(action.payload);
-                //return{
-                    ...state,
-                    error: action.payload
-                //}
+                ...state,
+                error: action.payload
             };
         case DELETE_LOG:
             return{
